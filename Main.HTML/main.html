@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <title> ART </title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>  
+.body{
+  background-color: rgb(241, 161, 161) ;
+}
+
+  .flexbox-item1{
+    width: 20px;
+    background-color:lemonchiffon;
+  }
+  .flexbox-item2{
+    background-color: #FAEBD7;
+  }
+.sidebar{
+   width: 25%;
+   height: 100%;
+   margin: 10px;
+   padding-left: 10px;
+   border:10px black;
+   background-image: url("../images/background2.jpg");
+   text-decoration: none;
+   align-items: flex-end;
+  text-align: center;
+  line-height: 100px;  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+}
+
+li{
+  float: right;
+}
+
+li {
+  display: inline;
+ 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h1{
+  color: white;
+  font-size: 30px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.art1{
+background-color: aquamarine;
+}
+.login-container {
+  float: right;
+}
+
+.image{
+  display:inline-block;
+  direction: ltr;
+  border-radius: 20%;
+
+}
+h5{
+  text-align: center;
+  color: beige;
+}
+</style>
+
+</head>
+<body class="body"> 
+<div class="navbar">
+   <ul>
+     <h1> عالم الفنون</h1>
+     <li><a href="default.asp">Home</a></li>
+     <li><a href="../p1/page1.html">page1</a></li>
+     <li><a href="../p2/page2.html">page2</a></li>
+     <li><a href="../p3/page3.html">page3</a></li>
+     <li><a href="../p4/page4.html">page4</a></li>
+     <li><a href="../page5.html">page5</a></li>
+     <li> <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search" name="search">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+     </li>
+ <!-- اعدل على الlogin -->
+ <div>
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+ </div>
+  <div class="dropdown">
+   <li> <button class="dropbtn"> الصفحات 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../p1/page1.html">الصفحة الاولى</a>
+      <a href="../p2/page2.html">الصفحة الثانية</a>
+      <a href="../p3/page3.html">الصفحة الثالثة</a>
+    </div></li>
+    </ul>
+  </div> 
+</div>
+
+
+<div class="flexboxitem1"> 
+<h2> ما هو الفن و ما اهميته؟</h2>
+<h4>يعتقد الكثير أنّ الفنون لا معنى لها ولا أهميّة، ولكن أنتَ لا تعرف أنّ الفنّانين يُعَبّرون عن مشاعرهم تجاه مجتمعهم والطبيعة وما تظهره الحياة لهم مِن خلال استخدام وسيلةٍ فنيّة؛ فعلى سبيل المثال عندما نشاهدُ لوحةٌ فنيّة أو قِطعَة مُوسيقيّة فهي تُحرّر الفنان مِن الحالة التي يعيشُ فيها سواء كان الخوف، أو القلق، أو الغضب، أو أي مشاعر مكبوتةٌ في داخله يُخرجها لكي تقودهُ بعد ذلك إلى الاستقرار النفسي، لأنّ كبتِ المشاعر والأحاسيس لفتراتٍ طويلة تُسَبب الكثير مِن العُقَد النفسيّة، لذلك سنقومُ بالتعرّفِ مِن خلال موقع موضوع على أهميّة الفنون وكيف تستخدمها لنفسك حتّى ولو لم تكن فناناً.
+</h4>>
+</div>
+
+<div class="flexbox-item2">
+<h2> فن الرسم</h2>
+<h4> يُعرف الرسم على أنّه فن مرئي وتشكيلي يتم فيه التعبير عن الأحاسيس والأفكار والأشياء والمواضيع بوساطة الأشكال، والخطوط، والألون، وهو فن عُرف منذ القدم، ويكون على عدة أشكال بتسجيل لبعض الملاحظات أو الخواطر أو المشاهد لشكل معين في لحظة ما، أو على شكل عمل تحضيري لوسيلة ما من وسائل وأساليب التعبير الفني، لكنه يكون في بعض الأحيان عملاً فنياً قائماً بذاته
+</h4>
+</div>
+
+  <div class="sidebar" style="width:25%">
+    <h3 class="w3-bar-item"> للمزيد</a></h3>
+    <a href="../gallery.html" class="w3-bar-item w3-button">الصور</a>
+    <a href="../funnyart.html" class="w3-bar-item w3-button">طرائف فنية</a>
+    <a href="" class="w3-bar-item w3-button">مواقع التواصل</a>
+    <a href="page5.html"></a>
+  </div>
+<div class="image">
+  <h5>انقر على الصور لمعرفة لمزيد عنها  </h5>
+<a dir="ltr" href="../page6.html">
+  <img src="../images/The_Scream.jpg">
+</a>
+<a href="../funnyart.html">
+<img src="../images/banana.jpg" width="30%">
+</a>
+<a href="../p2/page2.html">
+<img src="../images/pirl-girl.jpg" width="40%">
+</a>
+
+</div>
+</body>
+</html>

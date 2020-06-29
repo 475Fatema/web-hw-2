@@ -1,0 +1,87 @@
+.body{
+     background-image:url("../img/white-back.jpg") ;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+  .flexbox-container{ 
+    display: flex;
+    /* width: 200px;
+    border: 10px black;
+    background-color: lightpink;
+    justify-content: space-evenly;
+    align-items: center;
+   */
+}
+
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+  display: inline-flexbox;
+}
+
+.flexbox-item-1{
+  min-height: 100px;
+}
+
+
+.flexbox-item-2{
+  min-height: 200px;
+
+}
+
+
+.flexbox-item-3{
+  min-height: 300px;
+}
+
+
+.flexbox-item-4{
+  height: 400px;
+}
+
+.img1{
+  border: 100px lightgreen;
+  border-radius: 50%;
+}
+
+.btn{
+  border:20px coral;
+  padding:50% ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration-style: none;
+}
+
+li{
+  float: right;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.backp1{
+  background-color: cornflowerblue;
+}
+
+
